@@ -30,10 +30,9 @@ public class Debugging4 {
 	      while(count ==NUM);
 	      {
 	         double result = Math.random();
-	          // random() returns value between 0 and 1
+	         
 	         int answer = (int) (result * 10 + low);
-	          // multiply by 10 and add low -- random is at least the value of low
-	          // only use answer if it is low enough
+	          
 	         if(answer== high)
 	         {
 	            System.out.print(answer + "  ");
